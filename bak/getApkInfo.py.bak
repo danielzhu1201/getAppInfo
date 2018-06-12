@@ -1,0 +1,137 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# qw @ 2017-02-21 09:59:02
+import urllib2
+from lxml import etree
+import logging
+import traceback
+import re
+import time
+import json
+import multiprocessing
+import types
+import copy_reg
+from config import *
+
+
+def _pickle_method(m):
+    if m.im_self is None:
+        return getattr, (m.im_class, m.im_func.func_name)
+    else:
+        return getattr, (m.im_self, m.im_func.func_name)
+copy_reg.pickle(types.MethodType, _pickle_method)
+
+logging.basicConfig(level=logging.INFO,format='%(message)s')
+class GetApkInfo():
+    def __init__(self):
+        self.os = "android"
+        self.saveDict = None
+
+    def getWeb(self,url,headerDict):
+        logging.debug(url)
+        user_agent = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36)'
+        headers = { 'User-Agent' : user_agent ,
+        'Accept-Language':'zh-CN,zh;q=0.8',
+        'Accept':'application/json, text/javascript, */*; q=0.01'
+        }
+        for k,v in headerDict.iteritems():
+            headers[k] = v
+        req = urllib2.Request(url=url,headers=headers)
+        try:
+            return 0,urllib2.urlopen(req)
+        except:
+            traceback.print_exc()
+            return 1,"error"
+    
+    def formatUrl(self,apkname):
+        if self.os == "android":
+            return "http://android.myapp.com/myapp/detail.htm?apkName=%s"%apkname,{"Refer":"http://sj.qq.com/","Host":"android.myapp.com"}
+        else:
+            return False,{}
+    
+    
+    def analysisHtml(self,response):
+        infodict = {}
+    
+        try:
+            lweb = etree.HTML(response.read())
+            infodict["itemUrl"] = response.url 
+            packageName = re.findall("(?i)apkName=([^?&]*)",response.url)
+            if packageName:infodict["packageName"] = packageName[0]
+        
+            appName = lweb.xpath("//div[@class='det-name']/div[@class='det-name-int']/text()")
+            if appName:infodict["appName"] = appName[0]
+        
+            appType = lweb.xpath("//a[@id='J_DetCate']/text()")
+            if appType:infodict["apptype"] = appType[0]
+        
+            companyAndVersion = "\t".join(lweb.xpath("//div[@data-modname='appOthInfo']/div/text()"))
+            company = re.findall(u"开发商.\s*(.*)",companyAndVersion)
+            if len(company):infodict["company"] = company[0].strip()
+            version = re.findall(u"版本号.\t*(\S*)",companyAndVersion)
+            if len(version):infodict["version"] = version[0].strip()
+        
+            downloadTime = lweb.xpath("//div[@class='det-insnum-line']/div[@class='det-ins-num']/text()")
+            if downloadTime:infodict["downloadTime"] = downloadTime[0].replace(u"下载","")
+        
+            filesize = lweb.xpath("//div[@class='det-size']/text()")
+            if len(filesize):infodict["filesize"] = filesize[0]
+        
+            iconUrl = lweb.xpath("//div[@class='det-icon']/img/@src")
+            if len(iconUrl):infodict["iconUrl"] = iconUrl[0]
+        
+            downloadUrl = lweb.xpath("//a[@class='det-down-btn']/@data-apkurl")
+            if len(downloadUrl):infodict["downloadUrl"] = downloadUrl[0]
+        
+            description =  lweb.xpath("//div[@id='J_DetAppDataInfo']/div[@class='det-app-data-info']/text()")
+            if len(description):infodict["description"] = description[0]
+        
+            publishDate = lweb.xpath("//div[@id='J_ApkPublishTime']")
+            if len(publishDate):infodict["publishDate"] = time.strftime("%Y-%m-%d",time.localtime(int(publishDate[0].get("data-apkpublishtime",0))))
+        
+            screenShot = lweb.xpath("//span[@id='J_PicTurnImgBox']//img/@data-src")
+            if len(screenShot):infodict["screenShot"] = screenShot
+        
+            appRate = lweb.xpath("//div[@class='com-blue-star-num']/text()")
+            if len(appRate):infodict["appRate"] = appRate[0]
+        except:
+            logging.debug(traceback.format_exc())
+        finally:
+            return infodict
+    
+    def getApkInfoSingle(self,apkname):
+        url,header = self.formatUrl(apkname)
+        logging.debug("\t".join([apkname,url]))
+        if url == False:return None
+        web = self.getWeb(url,header)
+        if web[0] == 0:
+            return self.analysisHtml(web[1])
+        else:
+            return None
+
+    def getApkInfoMulti_connect(self,apkname):
+        self.saveDict[apkname] = self.getApkInfoSingle(apkname)
+
+    def getApkInfoMulti(self,apks):
+        self.saveDict = multiprocessing.Manager().dict()
+        pool = multiprocessing.Pool(crawl_thread_num)
+        #pool.map(self.getApkInfoMulti_connect,apks)
+        for apk in apks:
+            pool.apply_async(self.getApkInfoMulti_connect,(apk,))
+        pool.close()
+        pool.join()
+        returnDict = {}
+        for k in self.saveDict.keys():
+            returnDict[k] = self.saveDict.get(k,{})
+        return returnDict
+
+    def getApkInfo(self,apks,os):
+        self.os = os
+        if isinstance(apks,str):
+            return {apks:self.getApkInfoSingle(apks)}
+        elif isinstance(apks,list) or isinstance(apks,set):
+            return self.getApkInfoMulti(apks)   
+if __name__ == "__main__":
+    #print json.dumps(GetApkInfo().getApkInfo(["com.eg.android.AlipayGphone","com.tencent.qq"]),indent=4,ensure_ascii=False) 
+    print GetApkInfo().getApkInfo("com.eg.android.AlipayGphone","android") 
+    print GetApkInfo().getApkInfo(["com.eg.android.AlipayGphone","com.tencent.qq"],"android") 

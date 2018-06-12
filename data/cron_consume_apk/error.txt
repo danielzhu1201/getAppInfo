@@ -1,0 +1,1 @@
+/home/youmi/p2/getAppInfo/data/cron_consume_apk/log/log.txt

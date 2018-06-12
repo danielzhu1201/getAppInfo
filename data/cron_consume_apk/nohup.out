@@ -1,0 +1,2788 @@
+/data1/dmvhost/getAppInfo/data/cron_consume_apk/log/log.txt
+[Errno 111] Connection refused
+[Errno 111] Connection refused
+[Errno 111] Connection refused
+[Errno 111] Connection refused
+[Errno 111] Connection refused
+Process PoolWorker-8:
+Process PoolWorker-9:
+Process PoolWorker-10:
+Process PoolWorker-6:
+Process PoolWorker-7:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+    self.run()
+    self.run()
+    self.run()
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    task = get()
+    task = get()
+    task = get()
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 376, in get
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    racquire()
+    return recv()
+    racquire()
+    racquire()
+    racquire()
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+/home/youmi/p2/getAppInfo/data/cron_consume_apk/log/log.txt
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Process PoolWorker-2:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    self.run()
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+Process PoolWorker-4:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+Traceback (most recent call last):
+    return opener.open(url)
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    self._target(*self._args, **self._kwargs)
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 113, in worker
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+    self.run()
+  File "/usr/lib/python2.7/httplib.py", line 1255, in connect
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    HTTPConnection.connect(self)
+  File "/usr/lib/python2.7/httplib.py", line 821, in connect
+    self._target(*self._args, **self._kwargs)
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 113, in worker
+  File "/usr/lib/python2.7/socket.py", line 557, in create_connection
+    result = (True, func(*args, **kwds))
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 100, in select_platform_and_get_apk
+    logger.debug("qpop_front list:%s,data:%s"%(target_ssdb_list_name,apk_t))
+  File "/usr/lib/python2.7/logging/__init__.py", line 1162, in debug
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+    result = (True, func(*args, **kwds))
+KeyboardInterrupt
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 63, in select_platform_and_get_apk
+    ssdb_list_names = ssdb_wait.request("qlist",["","",-1]).data
+  File "/home/youmi/p2/getAppInfo/data/cron_consume_apk/SSDB.py", line 238, in request
+    resp = this.recv()
+  File "/home/youmi/p2/getAppInfo/data/cron_consume_apk/SSDB.py", line 390, in recv
+    if this.net_read()==0:
+  File "/home/youmi/p2/getAppInfo/data/cron_consume_apk/SSDB.py", line 368, in net_read
+    data = this.sock.recv(1024 * 8)
+KeyboardInterrupt
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1293, in _log
+    self.handle(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1303, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1343, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 766, in handle
+    self.emit(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 964, in emit
+    StreamHandler.emit(self, record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 466, in format
+    if self.usesTime():
+  File "/usr/lib/python2.7/logging/__init__.py", line 450, in usesTime
+    return self._fmt.find("%(asctime)") >= 0
+KeyboardInterrupt
+Process PoolWorker-5:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 113, in worker
+Process PoolWorker-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 113, in worker
+    result = (True, func(*args, **kwds))
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 113, in select_platform_and_get_apk
+    time.sleep(random.randint(0,10)*1.0/30)
+KeyboardInterrupt
+    result = (True, func(*args, **kwds))
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 63, in select_platform_and_get_apk
+    ssdb_list_names = ssdb_wait.request("qlist",["","",-1]).data
+  File "/home/youmi/p2/getAppInfo/data/cron_consume_apk/SSDB.py", line 238, in request
+    resp = this.recv()
+  File "/home/youmi/p2/getAppInfo/data/cron_consume_apk/SSDB.py", line 390, in recv
+    if this.net_read()==0:
+  File "/home/youmi/p2/getAppInfo/data/cron_consume_apk/SSDB.py", line 368, in net_read
+    data = this.sock.recv(1024 * 8)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Traceback (most recent call last):
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 44, in startthread
+    response = urllib.urlopen(url).read()
+  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "/usr/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/lib/python2.7/urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "/usr/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 617, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 846, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:726)
+Process PoolWorker-6:
+Process PoolWorker-9:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process PoolWorker-7:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+Process PoolWorker-8:
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+Traceback (most recent call last):
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    task = get()
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 376, in get
+    racquire()
+    racquire()
+KeyboardInterrupt
+KeyboardInterrupt
+    return recv()
+KeyboardInterrupt
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    racquire()
+KeyboardInterrupt
+Process PoolWorker-3:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 113, in worker
+    result = (True, func(*args, **kwds))
+  File "cron_crawl_appinfo_v3_ssdb_list.py", line 63, in select_platform_and_get_apk
+    ssdb_list_names = ssdb_wait.request("qlist",["","",-1]).data
+  File "/home/youmi/p2/getAppInfo/data/cron_consume_apk/SSDB.py", line 238, in request
+    resp = this.recv()
+  File "/home/youmi/p2/getAppInfo/data/cron_consume_apk/SSDB.py", line 390, in recv
+    if this.net_read()==0:
+  File "/home/youmi/p2/getAppInfo/data/cron_consume_apk/SSDB.py", line 368, in net_read
+    data = this.sock.recv(1024 * 8)
+KeyboardInterrupt
+Process PoolWorker-10:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+Process PoolWorker-13:
+Traceback (most recent call last):
+Process PoolWorker-14:
+Process PoolWorker-11:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    self.run()
+    self.run()
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    racquire()
+KeyboardInterrupt
+    task = get()
+    task = get()
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    racquire()
+KeyboardInterrupt
+    racquire()
+    racquire()
+KeyboardInterrupt
+KeyboardInterrupt
+Process PoolWorker-12:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    racquire()
+KeyboardInterrupt
+Process PoolWorker-17:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+Process PoolWorker-16:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+Process PoolWorker-15:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+Process PoolWorker-18:
+    self.run()
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 262, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    task = get()
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    _current_process = self
+KeyboardInterrupt
+    task = get()
+    racquire()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+KeyboardInterrupt
+    task = get()
+    racquire()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+KeyboardInterrupt
+    racquire()
+KeyboardInterrupt
+Process PoolWorker-19:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    racquire()
+KeyboardInterrupt
+Process PoolWorker-20:
+Process PoolWorker-22:
+Process PoolWorker-23:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+Process PoolWorker-21:
+    self._target(*self._args, **self._kwargs)
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+Traceback (most recent call last):
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    task = get()
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    racquire()
+KeyboardInterrupt
+    racquire()
+KeyboardInterrupt
+    racquire()
+KeyboardInterrupt
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    racquire()
+KeyboardInterrupt
+Process PoolWorker-24:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    racquire()
+KeyboardInterrupt
+Process PoolWorker-25:
+Traceback (most recent call last):
+Process PoolWorker-26:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    racquire()
+KeyboardInterrupt
+    racquire()
+KeyboardInterrupt
+Process PoolWorker-27:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    racquire()
+KeyboardInterrupt
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 328, in _handle_workers
+    pool._maintain_pool()
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 232, in _maintain_pool
+    self._repopulate_pool()
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 225, in _repopulate_pool
+    w.start()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 130, in start
+    self._popen = Popen(self)
+  File "/usr/lib/python2.7/multiprocessing/forking.py", line 125, in __init__
+    random.seed()
+  File "/usr/lib/python2.7/random.py", line 120, in seed
+    super(Random, self).seed(a)
+KeyboardInterrupt
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 328, in _handle_workers
+    pool._maintain_pool()
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 232, in _maintain_pool
+    self._repopulate_pool()
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 225, in _repopulate_pool
+    w.start()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 130, in start
+    self._popen = Popen(self)
+  File "/usr/lib/python2.7/multiprocessing/forking.py", line 125, in __init__
+    random.seed()
+  File "/usr/lib/python2.7/random.py", line 120, in seed
+    super(Random, self).seed(a)
+KeyboardInterrupt
+
+Process PoolWorker-33:
+Process PoolWorker-32:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+Process PoolWorker-34:
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    task = get()
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    racquire()
+KeyboardInterrupt
+    racquire()
+KeyboardInterrupt
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    racquire()
+KeyboardInterrupt
+Process PoolWorker-30:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+Process PoolWorker-31:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 102, in worker
+    racquire()
+KeyboardInterrupt
+    task = get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 374, in get
+    racquire()
+KeyboardInterrupt
