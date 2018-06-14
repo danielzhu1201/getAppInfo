@@ -3,8 +3,8 @@
 # qw @ 2017-02
 
 import sys
-sys.path.insert(0,'../..') #ensure that config is always in parent folder!!
-from config import *
+sys.path.append("./")
+from config.config import *
 import urllib
 import os
 import datetime
@@ -29,7 +29,7 @@ def init_logger(name, filename):
     logger.setLevel(logging.INFO)
     return logger
 
-logger = init_logger('update apk info', 'log.txt')
+logger = init_logger('updateapkinfo', 'log.txt')
 
 
 

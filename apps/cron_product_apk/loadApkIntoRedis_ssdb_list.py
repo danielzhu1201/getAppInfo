@@ -3,8 +3,8 @@
 # qw @ 2017-03-09 11:45:56
 
 import sys
-sys.path.insert(0,'../..') #ensure that config is always in parent folder!!
-from config import *
+sys.path.append("./")
+from config.config import *
 import os
 import logging
 import datetime
@@ -25,7 +25,7 @@ def init_logger(name, filename):
     logger.setLevel(logging.INFO)
     return logger
 
-logger = init_logger('mylogger', 'log.txt')
+logger = init_logger('test', 'log.txt')
 
 """
 try:

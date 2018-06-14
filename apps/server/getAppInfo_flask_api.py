@@ -3,17 +3,18 @@
 # qw @ 2017-02-23 12:00:48
 
 from flask import Flask,request,make_response
+import sys
+sys.path.append("./")
 app = Flask(__name__)
 import os 
 import logging
 #import redis
 import json
-from getApkInfo import GetApkInfo
-from config import *
+#from getApkInfo import GetApkInfo
+from config.config import *
 import traceback
 import datetime
 import os
-import sys  
 reload(sys)
 sys.setdefaultencoding('utf8')
 import socket

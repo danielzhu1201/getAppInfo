@@ -3,8 +3,8 @@
 # qw @ 2017-03-08 17:48:52
 
 import sys
-sys.path.insert(0,'../..') #ensure that config is always in parent folder!!
-from config import *
+sys.path.append("./")
+from config.config import *
 import os
 import json
 import multiprocessing
@@ -37,7 +37,7 @@ def init_logger(name, filename):
     logger.setLevel(logger_level)
     return logger
 
-logger = init_logger('mylogger', 'log.txt')
+logger = init_logger('test', 'log.txt')
 logger.info("start...")
 
 def startthread(url):

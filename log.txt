@@ -1,0 +1,2 @@
+2018-06-14 11:32:28,495,[INFO],cron_delete_record_ssdb.py,process_deal,47,updateapkinfo: try scan hashmap:android
+2018-06-14 11:32:28,495,[INFO],cron_delete_record_ssdb.py,process_deal,47,updateapkinfo: try scan hashmap:ios

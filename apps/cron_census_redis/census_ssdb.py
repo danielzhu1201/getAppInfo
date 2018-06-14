@@ -1,6 +1,10 @@
 import sys
-sys.path.insert(0,'../..') #ensure that config is always in parent folder!!
-from config import *
+sys.path.append("./")
+from config.config import *
+
+import logging
+logger = logging.getLogger("census")
+
 import traceback
 import json
 import datetime
@@ -20,15 +24,15 @@ for ssdb_bind in [ssdb_wait,ssdb_save]:
     list_keys = ssdb_bind[0].request("qlist",["","",-1]).data 
     for list_key in list_keys:
         list_key_size = ssdb_bind[0].request("qsize",[list_key]).data
-        print "port:%s,list_key:%s,size:%s"%(ssdb_bind[1],list_key,str(list_key_size))
+        logger.info("port:%s,list_key:%s,size:%s"%(ssdb_bind[1],list_key,str(list_key_size)))
     set_keys = ssdb_bind[0].request("zlist",["","",100]).data
     for set_key in set_keys:
         set_key_size = ssdb_bind[0].request("zsize",[set_key]).data
-        print "port:%s,set_key:%s,size:%s"%(ssdb_bind[1],set_key,str(set_key_size))
+        logger.info("port:%s,set_key:%s,size:%s"%(ssdb_bind[1],set_key,str(set_key_size)))
     hashmap_keys = ssdb_bind[0].request("hlist",["","",100]).data
     for hashmap_key in hashmap_keys:
         hashmap_key_size = ssdb_bind[0].request("hsize",[hashmap_key]).data
-        print "port:%s,hashmap_key:%s,size:%s"%(ssdb_bind[1],hashmap_key,str(hashmap_key_size))
+        logger.info("port:%s,hashmap_key:%s,size:%s"%(ssdb_bind[1],hashmap_key,str(hashmap_key_size)))
         #yesterday update
         countYesterday = todaycount = 0
         display_count = 0

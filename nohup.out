@@ -1,0 +1,13 @@
+/home/youmi/p2/revision/getAppInfo/log/log.txt
+****** printing apk *******
+com.zhangdong.jump.mi
+0
+****** printing apk *******
+com.fnny.tttfk.uc
+0
+Traceback (most recent call last):
+  File "apps/cron_consume_apk/cron_crawl_appinfo_v3_ssdb_list.py", line 148, in <module>
+    select_platform_and_get_apk()
+  File "apps/cron_consume_apk/cron_crawl_appinfo_v3_ssdb_list.py", line 132, in select_platform_and_get_apk
+    time.sleep(random.randint(0,10)*1.0/30)
+KeyboardInterrupt

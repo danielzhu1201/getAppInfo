@@ -1,0 +1,1 @@
+2018-06-14 11:32:00,321 [INFO] test: folder:/home/youmi/p2/revision/getAppInfo/2018-06-07

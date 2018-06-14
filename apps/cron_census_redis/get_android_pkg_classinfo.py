@@ -1,6 +1,6 @@
 import sys
-sys.path.insert(0,'../..') #ensure that config is always in parent folder!!
-from config import *
+sys.path.append("./")
+from config.config import *
 import traceback
 import json
 import datetime

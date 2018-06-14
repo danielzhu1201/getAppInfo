@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # qw @ 2017-02-27 11:29:40
+import sys
+sys.path.append("./")
 import logging
 import traceback
 import time
@@ -10,7 +12,7 @@ import types
 import copy_reg
 import lib
 import os
-from config import *
+from config.config import *
 log_path = '/home/ymserver/dmvhost/getAppInfo/log'
 
 def init_logger(name, filename):

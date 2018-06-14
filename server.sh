@@ -3,7 +3,7 @@ echo $sourceString
 $sourceString
 today=$(date "+%Y-%m-%d")
 echo $today
-string="python cron_delete_record_ssdb.py &"
+string="python apps/server/getAppInfo_flask_api.py &"
 echo $string
 $string
 

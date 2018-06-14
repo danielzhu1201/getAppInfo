@@ -22,7 +22,7 @@ deleteHadoopData="hadoop fs -rm -r "$hadoopFilePath
 #echo $deleteHadoopData
 #$deleteHadoopData
 
-loadIntoRedisPythonFile="loadApkIntoRedis_ssdb_list.py"
+loadIntoRedisPythonFile="apps/cron_product_apk/loadApkIntoRedis_ssdb_list.py"
 loadString="python "$loadIntoRedisPythonFile" "$localpath"/"$today
 echo $loadString
 $loadString

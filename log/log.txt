@@ -1,0 +1,18 @@
+2018-06-14 11:29:50,489 [INFO] test: start...
+2018-06-14 11:29:50,490 [INFO] test: connect ssdb sucess !!!
+2018-06-14 11:29:50,529 [DEBUG] test: wait crawl list:['android-1']
+2018-06-14 11:29:50,529 [DEBUG] test: choice,platform:android,simkey:['android-1']
+2018-06-14 11:29:50,529 [DEBUG] test: platform:android,list_names:['android-1'],list_name:android-1
+2018-06-14 11:29:50,530 [DEBUG] test: qpop_front list:android-1,data:com.zhangdong.jump.mi
+2018-06-14 11:29:50,530 [DEBUG] test: platform:android, apk:com.zhangdong.jump.mi,ssdb_have_info:ok None 0,0
+2018-06-14 11:29:50,530 [DEBUG] test: com.zhangdong.jump.mi	android	android-1	0
+2018-06-14 11:29:50,530 [DEBUG] test: https://dm.umlife.com/api/appinfo/v1/getInfo?os=android&pkg=com.zhangdong.jump.mi
+2018-06-14 11:29:51,438 [DEBUG] test: wait crawl list:['android-1']
+2018-06-14 11:29:51,438 [DEBUG] test: choice,platform:android,simkey:['android-1']
+2018-06-14 11:29:51,438 [DEBUG] test: platform:android,list_names:['android-1'],list_name:android-1
+2018-06-14 11:29:51,439 [DEBUG] test: qpop_front list:android-1,data:com.fnny.tttfk.uc
+2018-06-14 11:29:51,440 [DEBUG] test: platform:android, apk:com.fnny.tttfk.uc,ssdb_have_info:ok None 0,0
+2018-06-14 11:29:51,440 [DEBUG] test: com.fnny.tttfk.uc	android	android-1	0
+2018-06-14 11:29:51,441 [DEBUG] test: https://dm.umlife.com/api/appinfo/v1/getInfo?os=android&pkg=com.fnny.tttfk.uc
+2018-06-14 11:32:36,038 [INFO] mylogger: start...
+2018-06-14 11:32:36,101 [INFO] mylogger: start...
