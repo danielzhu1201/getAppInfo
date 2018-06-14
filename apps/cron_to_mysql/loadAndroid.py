@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0,'../..') #ensure that config is always in parent folder!!
 from config import *
 import redis
 import traceback

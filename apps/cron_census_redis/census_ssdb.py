@@ -1,10 +1,9 @@
-
-import redis
+import sys
+sys.path.insert(0,'../..') #ensure that config is always in parent folder!!
 from config import *
 import traceback
 import json
 import datetime
-import sys
 nowtime = datetime.datetime.strptime(datetime.datetime.now().strftime("%Y-%m-%d") + " 00:00:00","%Y-%m-%d %H:%M:%S")
 print nowtime
 from SSDB import SSDB

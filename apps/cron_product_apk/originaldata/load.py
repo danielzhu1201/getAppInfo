@@ -4,6 +4,8 @@
 
 import redis
 import os
+import sys
+sys.path.insert(0,'../..') #ensure that config is always in parent folder!!
 from config import *
 connect_db = redis_db["crawl_apk"]
 red = redis.Redis(db=connect_db)

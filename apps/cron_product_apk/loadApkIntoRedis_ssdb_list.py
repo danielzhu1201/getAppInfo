@@ -2,11 +2,10 @@
 # -*- coding: utf-8 -*-
 # qw @ 2017-03-09 11:45:56
 
-import redis
-import os
+import sys
+sys.path.insert(0,'../..') #ensure that config is always in parent folder!!
 from config import *
 import os
-import sys
 import logging
 import datetime
 
@@ -15,7 +14,7 @@ log_path = os.path.join(os.getcwd(),"log")
 
 def init_logger(name, filename):
     logger = logging.getLogger(name)
-    date = datetime.datetime.now().strftime("%Y%m%d.")    
+    date = datetime.datetime.now().strftime("%Y%m%d.")
     log_file = os.path.join(log_path, date+filename)
     log_handler = logging.FileHandler(log_file, mode='a', encoding='utf-8')
     log_formatter = logging.Formatter(
@@ -89,5 +88,5 @@ try:
 except Exception as e:
     logger.error(str(e), exc_info=True)
 
-logger.info("load to redis all done !")
+logger.info("load to ssdb all done !")
 logger.info(str(countdict))

@@ -2,6 +2,10 @@
 # -*- coding: utf-8 -*-
 # qw @ 2017-02-23 16:37:14
 
+#logger_level
+import logging
+logger_level = logging.DEBUG
+
 #redis的链接信息
 redis_host = "127.0.0.1"
 redis_port = 6379

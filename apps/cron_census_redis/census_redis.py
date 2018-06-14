@@ -1,6 +1,6 @@
 
 import redis
-from config import *
+from getAppInfo.config import *
 import traceback
 import json
 import datetime

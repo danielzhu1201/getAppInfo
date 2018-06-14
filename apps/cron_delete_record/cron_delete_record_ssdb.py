@@ -2,10 +2,11 @@
 # -*- coding: utf-8 -*-
 # qw @ 2017-02
 
-import urllib
 import sys
-import os
+sys.path.insert(0,'../..') #ensure that config is always in parent folder!!
 from config import *
+import urllib
+import os
 import datetime
 import json
 import logging
